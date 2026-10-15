@@ -42,8 +42,8 @@ DepShield provides an end-to-end resilience engine that analyzes real GitHub rep
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/vaishnavyewale39/VStock.git
-   cd VStock
+   git clone https://github.com/vaishnavyewale39/H26_Quadbit_DepShield.git
+   cd H26_Quadbit_DepShield
    ```
 
 2. **Backend Setup:**

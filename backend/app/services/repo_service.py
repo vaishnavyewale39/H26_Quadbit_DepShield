@@ -17,7 +17,7 @@ class RepoService:
 
     def _get_local_workspace_repo(self) -> Tuple[Optional[Path], Optional[str]]:
         """
-        Detects if current workspace is a git repository and returns (path, repo_slug e.g. 'vaishnavyewale39/VStock').
+        Detects if current workspace is a git repository and returns (path, repo_slug e.g. 'vaishnavyewale39/H26_Quadbit_DepShield').
         """
         try:
             workspace_root = Path(__file__).resolve().parent.parent.parent.parent
@@ -32,7 +32,7 @@ class RepoService:
                 m = re.search(r"github\.com[/:]([a-zA-Z0-9_\-\.]+)/([a-zA-Z0-9_\-\.]+?)(?:\.git|/)?$", url)
                 if m:
                     return workspace_root, f"{m.group(1)}/{m.group(2)}"
-            return workspace_root, "vaishnavyewale39/VStock"
+            return workspace_root, "vaishnavyewale39/H26_Quadbit_DepShield"
         except Exception:
             return None, None
 

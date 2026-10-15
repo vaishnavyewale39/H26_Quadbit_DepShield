@@ -15,3 +15,4 @@ frontend/dist/
 # Temp analysis files
 temp_repos/
 scratch/
+backend/generated_reports/
